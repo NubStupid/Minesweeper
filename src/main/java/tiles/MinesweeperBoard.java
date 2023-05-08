@@ -33,6 +33,7 @@ public class MinesweeperBoard    {
         for(int k = 0; k < this.column; k++) {
             System.out.print(" " + k + "  ");
         }
+        System.out.println("");
     }
 
     private String tilesToString(Tiles tilesToCheck, boolean isRevealed) {
