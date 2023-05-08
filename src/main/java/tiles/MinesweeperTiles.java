@@ -12,4 +12,12 @@ public class MinesweeperTiles {
     public Tiles getTiles() {
         return this.tiles;
     }
+
+    public boolean isRevealed() {
+        return revealed;
+    }
+
+    public void flipRevealed() {
+        this.revealed = !revealed;
+    }
 }

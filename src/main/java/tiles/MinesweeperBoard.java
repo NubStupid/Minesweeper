@@ -7,7 +7,7 @@ public class MinesweeperBoard    {
     public MinesweeperBoard(int row, int column) {
         this.row = row;
         this.column = column;
-        this.boardGame = new MinesweeperTiles[row][column];
+        this.boardGame = new MinesweeperTiles[row][column] ;
         this.buildBoard();
     }
 
@@ -20,17 +20,26 @@ public class MinesweeperBoard    {
     }
 
     public void printBoard() {
-        for(MinesweeperTiles[] mt : this.boardGame) {
-            for(MinesweeperTiles mtTiles : mt) {
+        for(int i = 0; i < this.row; i++) {
+            for(int j = 0; j < this.column; j++) {
+                MinesweeperTiles mtTiles = this.boardGame[i][j];
                 System.out.print("[");
-                System.out.print(this.tilesToString(mtTiles.getTiles()));
+                System.out.print(this.tilesToString(mtTiles.getTiles(), mtTiles.isRevealed()));
                 System.out.print("] ");
             }
+            System.out.print(i);
             System.out.println();
+        }
+        for(int k = 0; k < this.column; k++) {
+            System.out.print(" " + k + "  ");
         }
     }
 
-    private String tilesToString(Tiles tilesToCheck) {
+    private String tilesToString(Tiles tilesToCheck, boolean isRevealed) {
+        if(!isRevealed) {
+            return "X";
+        }
+
         switch(tilesToCheck) {
             case ONE -> {
                 return "1";
