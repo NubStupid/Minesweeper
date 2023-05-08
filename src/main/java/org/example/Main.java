@@ -13,6 +13,5 @@ public class Main {
         in = sc.nextLine();
         board.reveal(in);
 
-
     }
 }
