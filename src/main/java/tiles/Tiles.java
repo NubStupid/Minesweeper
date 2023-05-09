@@ -10,6 +10,5 @@ public enum Tiles {
     SIX,
     SEVEN,
     EIGHT,
-    BOMB,
-    FLAG
+    BOMB
 }
