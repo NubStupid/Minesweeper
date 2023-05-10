@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="059e2727-bd67-4150-aa71-0fe1081ab64c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tiles/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tiles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tiles/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tiles/MinesweeperBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tiles/MinesweeperBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/asus/OneDrive/Desktop/iSTTS/Semester 2/ALPRO2/Minesweeper",
+    "last_opened_file_path": "C:/MyProgram/Java/minesweeper",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -87,6 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683466506622</updated>
       <workItem from="1683466508200" duration="147000" />
+      <workItem from="1683690394549" duration="129000" />
+      <workItem from="1683694053822" duration="40000" />
     </task>
     <servers />
   </component>
